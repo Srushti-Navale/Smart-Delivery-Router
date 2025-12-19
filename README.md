@@ -34,13 +34,13 @@ The system operates on a weighted undirected graph consisting of **12 key urban 
 2. Install dependencies :
    pip install firebase-admin
    
-3. Configure Google Cloud Access:
-   -Obtain a serviceAccountKey.json from the Firebase Console (Project Settings > Service   Accounts).
-   -Place the key in the root directory.
-   -Update the DATABASE_URL in main.py with your unique Firebase endpoint.
+3. Configure Google Cloud Access:<br>
+   -Obtain a serviceAccountKey.json from the Firebase Console (Project Settings > Service   Accounts).<br>
+   -Place the key in the root directory.<br>
+   -Update the DATABASE_URL in main.py with your unique Firebase endpoint.<br>
 
-5. Future Roadmap:
-   -Integration with Google Maps API for real-world coordinate mapping.
-   -Implementation of a Traffic Simulator to dynamically change edge weights (road congestion).
+5. Future Roadmap:<br>
+   -Integration with Google Maps API for real-world coordinate mapping.<br>
+   -Implementation of a Traffic Simulator to dynamically change edge weights (road congestion).<br>
    -Front-end visualization using Streamlit to display the delivery boy's path on an interactive map.
 

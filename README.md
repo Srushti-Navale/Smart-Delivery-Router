@@ -28,18 +28,18 @@ The system operates on a weighted undirected graph consisting of **12 key urban 
 - **Security-First Design:** Implemented professional `.gitignore` patterns to prevent the leakage of sensitive Google Cloud JSON credentials.
 
 ## ⚙️ Setup & Installation
-1. **Clone the repository:**
+1. Clone the repository:
    ```bash
    git clone [https://github.com/Srushti-Navale/Smart-Delivery-Router.git](https://github.com/Srushti-Navale/Smart-Delivery-Router.git)
 2. Install dependencies :
    pip install firebase-admin
    
 3. Configure Google Cloud Access:
-  -Obtain a serviceAccountKey.json from the Firebase Console (Project Settings > Service   Accounts).
-  -Place the key in the root directory.
-  -Update the DATABASE_URL in main.py with your unique Firebase endpoint.
+   Obtain a serviceAccountKey.json from the Firebase Console (Project Settings > Service   Accounts).
+   Place the key in the root directory.
+   Update the DATABASE_URL in main.py with your unique Firebase endpoint.
 
 4. Future Roadmap:
-  -Integration with Google Maps API for real-world coordinate mapping.
-  -Implementation of a Traffic Simulator to dynamically change edge weights (road congestion).
-  -Front-end visualization using Streamlit to display the delivery boy's path on an interactive map.
+   Integration with Google Maps API for real-world coordinate mapping.
+   Implementation of a Traffic Simulator to dynamically change edge weights (road congestion).
+   Front-end visualization using Streamlit to display the delivery boy's path on an interactive map.

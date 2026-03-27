@@ -6,7 +6,6 @@ A sophisticated urban routing system that calculates optimal delivery paths usin
 This project simulates a professional logistics environment where a delivery vehicle must navigate a complex urban graph. By implementing a priority-queue-based pathfinding engine, the system calculates the most time-efficient route and persists all delivery logs to a regional Google Cloud database in Singapore (**asia-southeast1**).
 
 
-
 ## 🛠️ Tech Stack
 * **Language:** Python 3.13
 * **Algorithm:** Dijkstra’s Algorithm (Optimized with `heapq` / Min-Heap)
